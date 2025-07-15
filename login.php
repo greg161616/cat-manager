@@ -1,8 +1,8 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Cat Manager - Login/Register</title>
+  <title>🐱 Cat Manager - Login/Register</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .form-section { display: none; }
@@ -24,8 +24,8 @@
 
       <!-- Login Form -->
       <div class="card shadow-sm form-section active" id="loginSection">
-        <div class="card-header bg-primary text-white text-center">
-          <h4 class="mb-0">Login</h4>
+        <div class="card-header bg-dark text-white text-center">
+          <h4 class="mb-0">🐱 Login</h4>
         </div>
         <div class="card-body">
           <form id="loginForm">
@@ -38,7 +38,7 @@
               <input type="password" class="form-control" id="password" required>
             </div>
             <div class="d-grid">
-              <button type="submit" class="btn btn-primary">Login</button>
+              <button type="submit" class="btn btn-dark">Login</button>
             </div>
           </form>
         </div>
@@ -46,8 +46,8 @@
 
       <!-- Register Form -->
       <div class="card shadow-sm form-section" id="registerSection">
-        <div class="card-header bg-success text-white text-center">
-          <h4 class="mb-0">Register</h4>
+        <div class="card-header bg-secondary text-white text-center">
+          <h4 class="mb-0">🐱 Register</h4>
         </div>
         <div class="card-body">
           <form id="registerForm">
@@ -60,7 +60,7 @@
               <input type="password" class="form-control" id="reg_password" required>
             </div>
             <div class="d-grid">
-              <button type="submit" class="btn btn-success">Register</button>
+              <button type="submit" class="btn btn-secondary">Register</button>
             </div>
           </form>
         </div>
@@ -110,10 +110,6 @@ document.getElementById("registerForm").onsubmit = async (e) => {
   const txt = await res.text();
   alert(txt);
 };
-
-// could improve the UI more especially it's about cats. could use some cat pictures in login
-
-  
 </script>
 
 </body>
