@@ -106,6 +106,7 @@ document.getElementById("registerForm").onsubmit = async (e) => {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: `action=register&username=${reg_username.value}&password=${reg_password.value}`
+    //nice login interface
   });
   const txt = await res.text();
   alert(txt);
