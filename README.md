@@ -23,6 +23,9 @@ Make sure you have the following installed:
 - A web server (e.g., XAMPP, WAMP, or Apache)
 - PHP 7.x or higher
 - Internet connection (to access external cat APIs)
+- place the files here on the htdocs from XAMPP
+- and run the web using hhtps://localhost/cat-manager/
+  
 
 ### Installation
 
